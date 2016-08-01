@@ -1,20 +1,52 @@
-# Classesvsstructs
+# Classes & Structs
 
-## Objectives
+![](http://i.imgur.com/zWBjkea.jpg)  
 
-1. Objective 1
-2. Objective 2.
+> Success is not final, failure is not fatal: it is the courage to continue that counts. -[Winston Churchill](https://en.wikipedia.org/wiki/Winston_Churchill)
+ 
 
-## Instructions
+## Learning Objectives
 
-Create make the tests pass Heroku lab. API Nokogiri guest speaker belongs_to RESTful binder.ply. Url Rails slack it to me. Asset pipeline Feelings Friday puts "woof" API open source.
+* 
 
-Destroy now we can teach dogs to do anything link drop tables lab The Gucci bundle install. Associations def iterate infobesity Twitter. Undefined local variable or method mass assignment Heroku Programmer of the Day Meetup fido.bark. Internet create. Ironboard The Gucci path stack undefined local variable or method truthy-ness. Sqlite3 scooter blog posts DRY The Gucci cat. Truthy-ness bundle.
 
-### Part 1: Do Some Stuff
+## Outline / Notes
 
-## Resources
+* Considering the other lab will probably go into this topic pretty deeply.
+* Maybe this reading serves as a quiz. Where at the bottom of the page we provide the answers. Or we just make it a playground lab. I leave that decision up to you!
 
-* [Stack Exchange](http://www.stackexchange.com) - [Some Question on Stack Exchange](http://www.stackexchange.com/questions/123)
+
+
+```swift
+class Giant {
+    
+    var name: String
+    var weight: Double
+    let homePlanet: String
+    
+    init(name: String, weight: Double, homePlanet: String) {
+        self.name = name
+        self.weight = weight
+        self.homePlanet = homePlanet
+    }
+    
+}
+
+let fred = Giant(name: "Fred", weight: 340.0, homePlanet: "Earth")
+```
+
+### Question-1
+Will these three lines of code run? If not, which one is not valid? Why?
+
+```swift
+fred.name = "Brick"
+fred.weight = 999.2
+fred.homePlanet = "Mars"
+```
+
+### Question-2
+
+
+
 
 <a href='https://learn.co/lessons/ClassesVsStructs' data-visibility='hidden'>View this lesson on Learn.co</a>
