@@ -1,14 +1,12 @@
-# Classes & Structs
+# Classes & Structs Quiz
 
 ![](http://i.imgur.com/zWBjkea.jpg)  
 
 > Success is not final, failure is not fatal: it is the courage to continue that counts. -[Winston Churchill](https://en.wikipedia.org/wiki/Winston_Churchill)
 
-## Learning Objectives
+## Overview
 
-* Understand the difference between classes and structs
-* Understand the difference between value types and reference types
-* Work with both classes and structs
+This quiz will give you practice working with both classes and structs. 
 
 ## Quiz Time!
 
