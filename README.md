@@ -111,11 +111,11 @@ struct BankAccount {
     var owner: String
     var balance: Double
 
-    func deposit(amount: Double) {
+    func deposit(_ amount: Double) {
         balance += amount
     }
 
-    func withdraw(amount: Double) {
+    func withdraw(_ amount: Double) {
         balance -= amount
     }
 }
@@ -151,7 +151,7 @@ class MusicLibrary {
         tracks = []
     }
 
-    func addTrack(track: String) {
+    func add(track: String) {
         tracks.append(track)
     }
 }
@@ -161,10 +161,10 @@ Given this bit of code that uses `MusicLibrary`:
 
 ```swift
 let library1 = MusicLibrary()
-library1.addTrack("Michelle")
-library1.addTrack("Voodoo Child")
+library1.add(track: "Michelle")
+library1.add(track: "Voodoo Child")
 let library2 = library1
-library2.addTrack("Come As You Are")
+library2.add(track: "Come As You Are")
 ```
 
 After this code runs, what are the contents of `library1.tracks`? What about the contents of `library2.tracks`? Why?
