@@ -44,9 +44,13 @@ fred.weight = 999.2
 fred.homePlanet = "Mars"
 ```
 
+---> NO, BECAUSE HOME PLANET IS A LET
+
 ### Question 2
 
 Can you fix the class definition above so that it _does_ work?
+
+---> var homePlanet: String
 
 ### Question 3
 
@@ -74,9 +78,13 @@ bilbo.height = 1.42
 bilbo.homePlanet = "Saturn"
 ```
 
+---> NO, BECAUSE let bilbo
+
 ### Question 4
 
 Can you change the declaration of `bilbo` so that the above three lines of code _do_ work?
+
+---> var bilbo...
 
 ### Question 5
 
@@ -90,6 +98,8 @@ jason.name = "Jason"
 
 What will the value of `edgar.name` be after those three lines of code are run? What will the value of `jason.name` be? Why?
 
+---> Jason, Jason
+
 ### Question 6
 
 Given this bit of code that uses the `Alien` struct:
@@ -101,6 +111,8 @@ charlesFromJupiter.homePlanet = "Jupiter"
 ```
 
 What will the value of `charles.homePlanet` be after the above code run? What about the value of `charlesFromJupiter.homePlanet`? Why?
+
+---> Pluto, Jupiter
 
 ### Question 7
 
@@ -123,9 +135,13 @@ struct BankAccount {
 
 Does this code work? Why or why not?
 
+---> NOPE, IMMUTABLE
+
 ### Question 8
 
 Can you fix the `BankAccount` struct so it _does_ work?
+
+---> mutating func
 
 ### Question 9
 
@@ -138,6 +154,8 @@ joeAccount.withdraw(50.0)
 ```
 
 What will the value of `joeAccount.balance` be after the above code runs? What about the value of `joeOtherAccount.balance`? Why?
+
+---> joeAccount= 50, joeOtherAccount = 100. BECAUSE A COPY IS CREATED
 
 ### Question 10
 
@@ -168,5 +186,7 @@ library2.add(track: "Come As You Are")
 ```
 
 After this code runs, what are the contents of `library1.tracks`? What about the contents of `library2.tracks`? Why?
+
+---> SAME, ("MICHELLE", "VOODOO CHILD", "COME AS YOU ARE") -> COS REFERENCE TYPE
 
 <a href='https://learn.co/lessons/ClassesVsStructs' data-visibility='hidden'>View this lesson on Learn.co</a>
